@@ -13,8 +13,8 @@ collections:
     output: true
 email: scott@enkota.com
 description: WordPress Design & Development - Audio Mixing/Mastering Services
-baseurl: ''
-url: ''
+baseurl: 
+url: 
 twitter_username: scopeak
 markdown: kramdown
 theme: minima
