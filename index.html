@@ -1,16 +1,93 @@
----
-layout: home
----
+<!doctype html>
+<html lang="en">
 
-<section class="hero-home">
-  <div class="container text-center">
-    <div class="hero-content-inner">
-      <h1>Enkota</h1>
-      <p>
-        Web & Audio Services
-      </p>
-      <a href="https://scottrramsay.com" target="_blank"><button class="btn btn-primary">Scott Ramsay &nbsp;></button></a>
-      <a href="https://audiopeak.io" target="_blank"><button class="btn btn-primary">Audiopeak &nbsp;></button></a>
-    </div>
-  </div>
-</section>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.8.10/tailwind.min.css"
+        integrity="sha512-KO1h5ynYuqsFuEicc7DmOQc+S9m2xiCKYlC3zcZCSEw0RGDsxcMnppRaMZnb0DdzTDPaW22ID/gAGCZ9i+RT/w=="
+        crossorigin="anonymous" />
+    <!-- Primary Meta Tags -->
+    <title>Enkota - Building future products</title>
+    <meta name="title" content="Enkota - Building future products">
+    <meta name="description" content="Founders of Astrola and Space.bio. Building online SaaS products.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://enkota.com/">
+    <meta property="og:title" content="Enkota - Building future products">
+    <meta property="og:description" content="Founders of Astrola and Space.bio. Building online SaaS products.">
+    <meta property="og:image" content="enkota.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://enkota.com/">
+    <meta property="twitter:title" content="Enkota - Building future products">
+    <meta property="twitter:description" content="Founders of Astrola and Space.bio. Building online SaaS products.">
+    <meta property="twitter:image" content="enkota.jpg">
+
+    <style>
+        header {
+            background:
+                url('https://images.unsplash.com/photo-1598770220555-c835b6c7b11f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjkzMjh9&auto=format&fit=crop&w=2851&q=80');
+        }
+
+        body img {
+            transition: 0.3s ease all;
+        }
+
+        body img:hover {
+            transform: scale(1.05);
+        }
+
+        body h1 {
+            letter-spacing: 2rem;
+            margin-left: 2rem
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header id="up" class="bg-center bg-fixed bg-no-repeat bg-center bg-cover h-screen relative">
+        <!-- Overlay Background + Center Control -->
+        <div class="h-screen bg-opacity-50 bg-black flex items-center justify-center"
+            style="background:rgba(0,0,0,0.5);">
+            <div class="body mx-2 px-6 text-center">
+
+                <h1 class="text-gray-100 font-thin text-4xl xs:text-4xl md:text-4xl mb-12 uppercase">
+                    <span class="text-white">Enkota</span>
+                </h1>
+                <div class="flex items-center space-x-8 md:space-x-12 justify-center">
+                    <a href="https://astrolahq.com" target="_blank">
+                        <button
+                            class="btn btn-outline-primary border-white text-white border px-6 py-1 font-light uppercase tracking-widest hover:bg-white hover:text-orange-500 transition-all duration-300 rounded">
+                            Astrola
+                        </button>
+                    </a>
+                    <a href="https://space.bio" target="_blank">
+                        <button
+                            class="btn btn-outline-primary border-white text-white border px-6 py-1 font-light uppercase tracking-widest hover:bg-white hover:text-orange-500 transition-all duration-300 rounded">
+                            Space
+                        </button>
+                    </a>
+                    <a href="https://reviewdrop.io" target="_blank">
+                        <button
+                            class="btn btn-outline-primary border-white text-white border px-6 py-1 font-light uppercase tracking-widest hover:bg-white hover:text-orange-500 transition-all duration-300 rounded">
+                            Reviewdrop
+                        </button>
+                    </a>
+                    <a href="https://astrolamusic.com" target="_blank">
+                        <button
+                            class="btn btn-outline-primary border-white text-white border px-6 py-1 font-light uppercase tracking-widest hover:bg-white hover:text-orange-500 transition-all duration-300 rounded">
+                            Music
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
